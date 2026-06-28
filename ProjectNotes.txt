@@ -82,3 +82,4 @@
 // remove the selected note
 // clear the detail section
 // update the list
+
