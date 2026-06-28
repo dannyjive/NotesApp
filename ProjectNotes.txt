@@ -1,0 +1,84 @@
+// ------------------------
+//  Notes
+// ------------------------
+
+// [ Title            ]
+
+// [ Note text....    ]
+
+// [ Add Note Button ]
+
+// Search: __________
+
+// ------------------------
+
+// • Grocery List
+// • Meeting Notes
+// • Vacation Ideas
+
+// ------------------------
+
+// Selected Note
+
+// Title: Grocery List
+
+// Milk
+// Eggs
+// Bread
+
+// Features
+// 1. Add Note
+
+// When clicking Add Note
+
+// Read title
+// Read text
+// Ignore empty titles
+// Create a note object
+// Push it into the array
+// Clear the inputs
+// Re-render the list
+// 2. Display Notes
+
+// Render every note inside a list.
+
+// Example
+
+// Groceries
+// Meeting Notes
+// Vacation
+// 3. Select Note
+
+// Clicking a note should
+
+// remember which note is selected
+// highlight it
+// display the title and text below
+// 4. Search
+
+// Typing in the search box should
+
+// filter the displayed notes
+// ignore capitalization
+
+// Example
+
+// Searching
+
+// gro
+
+// should still find
+
+// Groceries
+// 5. Delete Selected
+
+// Button:
+
+// Delete Selected
+
+// Requirements:
+
+// if nothing is selected → do nothing
+// remove the selected note
+// clear the detail section
+// update the list
