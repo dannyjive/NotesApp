@@ -5,6 +5,7 @@ const notesList = document.getElementById("notesList");
 const selectedNote = document.getElementById("selectedNote");
 
 const notes = [];
+let selectedId = null;
 
 function renderNotes(){
     notesList.innerHTML = "";
@@ -13,13 +14,22 @@ function renderNotes(){
         const div = document.createElement("div");
         div.textContent = note.title
 
+        div.addEventListener("click", () => {
+            selectedId = note.id
+            renderSelectedNote();
+        });
+
         notesList.appendChild(div);
     });
 }
 
+function renderSelectedNote(){
+    
+}
+
 addBtn.addEventListener("click", () => {
-  const title = titleInput.value;
-  const text = noteInput.value;
+  const title = titleInput.value.trim();
+  const text = noteInput.value.trim();
 
     if (!title.trim()) return;
 
