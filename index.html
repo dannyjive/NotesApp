@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="./styles.css" />
     <title>Notes App</title>
 </head>
+
 <body>
 
-<main>
-    <input
-    id="searchInput"
-    type="text"
-    placeholder="Search notes..."
+    <main>
+        <input id="searchInput" type="text" placeholder="Search notes..." />
 
-    />
+        <input id="titleText" type="text" placeholder="Add Title" />
 
-    <input id="titleText" type="text" placeholder="Add Title" />
+        <textarea id="notesText" placeholder="Add Note"></textarea>
 
-    <textarea id="notesText" placeholder="Add Note"></textarea>
+        <button id="addBtn">Add Note</button>
 
-    <button id="addBtn">Add Note</button>
-    
-    <button id="delBtn">Delete Note</button>
 
-    <div id="notesList"></div>
+        <div id="notesList"></div>
 
-    <div id="selectedNote"></div>
+        <div id="selectedNote"></div>
 
-</main>
+        <button id="editBtn">Edit Note</button>
+        <button id="delBtn">Delete Note</button>
+        <button id="saveBtn" class="hidden">Save</button>
+        <button id="cancelBtn" class="hidden">Cancel</button>
 
-<script src="./script.js"></script>
+    </main>
+
+    <script src="./script.js"></script>
 </body>
+
 </html>
